@@ -1,0 +1,107 @@
+body{
+    margin:0px;
+}
+header.mainHeader, footer.mainFooter{
+  background: #1cb3c8;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Trajan Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Trajan Pro Regular'), url('../fonts/trajan-pro/TrajanPro-Regular.woff') format('woff');
+}
+a.link-uimqroo{
+  color: black;
+  text-decoration: none!important;
+}
+
+/* @font-face {
+  font-family: 'Trajan Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Trajan Pro Bold'), url('../fonts/trajan-pro/TrajanPro-Bold.woff') format('woff');
+  } */
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+      padding: 0;
+      max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li {
+      float: none;
+      display: block;
+    }
+    .sidebar-nav .navbar li a {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+div.navigation{
+  background: #e2e2e2!important;
+}
+.li-hover a{
+  color: black!important;
+}
+li.li-home, .home{
+  color: black!important;
+  border-bottom:1px solid #1cb3c8!important;
+}
+li.li-hover:hover{
+  border-bottom:3px solid #1cb3c8!important;
+  color: black;
+  transition: width 3s;
+  transition-timing-function: ease;
+}
+/* Collapsed */
+a.collapsed{
+  text-decoration:none!important;
+  color: black!important;
+}
+div.panel-heading{
+  background:#F0F0F0;
+}
+div.panel-heading:hover{
+  border-bottom:2px solid #1cb3c8;
+}/* END collapse */
+
+/* info - publica - Obli */
+div ul li.tabs-list{
+  background: #e2e2e2!important;
+}
+div ul li.tabs-list a{
+  text-decoration: none!important;
+  font-weight: bold;
+}
+div ul li.tabs-list a:hover{
+  text-decoration: none!important;
+  color: black;
+  font-size: 1.1em;
+}
+div.body-tabpanel{
+  margin-left: 15px;
+}
+div.body-tabpanel a{
+  text-decoration: none!important;
+  font-weight: inherit;
+  color: black;
+}
+div.body-tabpanel a:hover{
+  text-decoration: none!important;
+  font-weight:bold;
+  color: black;
+}/* End -- info - publica - Obli*/
+/* Detalle norma */
+ol.dir-bread{
+  background: #e2e2e2!important;
+}
+td a i.fa-file-alt{
+  font-size: 20px!important;
+}
+td.table-icon,th.table-icon{
+  text-align: center;
+}
+/* END detanorma */
